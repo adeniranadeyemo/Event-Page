@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap'); */
+
+*{
+  box-sizing: border-box;
+  /* margin: 10px; */
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+.yourpass{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav{
+  margin: 20px 25px 10px 25px;
+}
+
+h1{
+  display: inline-block;
+  margin: 0px 0px 10px -10px;
+}
+
+.p{
+  color: #d982aa;
+  margin-left: 0px;
+}
+
+.why{
+  height: 30px;
+  width: 30px;
+  background-color: green;
+  margin: 0px -10px 10px 0px;
+}
+
+.ourevents{
+  height: 350px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: -10px;
+  left: 0;
+  right: 0;
+}
+
+h2{
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  margin: 60px auto 70px auto;
+}
