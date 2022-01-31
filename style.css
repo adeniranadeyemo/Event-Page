@@ -56,7 +56,31 @@ h2{
 
 .ourevents p{
   text-align: center;
-  width: 80%;
-  margin: 150px 0px 70px 40px;
+  width: 70%;
+  font-weight: thin;
+  font-size: 15px;
+  margin: 150px 0px 70px 65px;
   position: absolute;
+}
+
+.lagos{
+  position: absolute;
+  height: 35px;
+  width: 100px;
+  background-color: white;
+  color: black;
+  bottom: 30px;
+  right: 10px;
+  border-radius: 3px;
+}
+
+.drop_down{
+  height: 4px;
+  width: 6px;
+  margin: 15px 0px 0px 70px;
+}
+
+.lagos p{
+  font-size: 13px;
+  margin: 9px 0px 0px 7px;
 }
