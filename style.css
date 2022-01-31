@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap'); */
 
 *{
   box-sizing: border-box;
-  /* margin: 10px; */
-  padding: 0;
   font-family: 'Nunito', sans-serif;
+}
+
+body{
+  background-color: #f4f4f4;
 }
 
 .yourpass{
@@ -16,7 +15,10 @@
 }
 
 nav{
-  margin: 20px 25px 10px 25px;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 15px;
+  /* position: relative; */
 }
 
 h1{
@@ -37,18 +39,24 @@ h1{
 }
 
 .ourevents{
-  height: 350px;
+  height: 360px;
   width: 100%;
   background-color: black;
   color: white;
-  margin-top: -10px;
-  left: 0;
-  right: 0;
+  margin-top: 0px;
+  position: relative;
 }
 
 h2{
-  display: block;
   text-align: center;
   font-size: 25px;
-  margin: 60px auto 70px auto;
+  margin: 100px 120px 70px 140px;
+  position: absolute;
+}
+
+.ourevents p{
+  text-align: center;
+  width: 80%;
+  margin: 150px 0px 70px 40px;
+  position: absolute;
 }
